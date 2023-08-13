@@ -1,6 +1,5 @@
 name: taxi-out-env
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python>=3.7
@@ -10,7 +9,7 @@ dependencies:
   - cloudpickle>=1.6.0
   - mlflow>=1.19
   - xgboost>=1.2.0
-  - kedro>=0.16.2
+  - kedro>=0.18.2
   - psycopg2>=2.8.5
   - scp>=0.13.2
   - matplotlib>=3.3.2
